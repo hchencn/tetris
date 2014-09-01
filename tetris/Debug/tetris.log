@@ -1,0 +1,36 @@
+﻿生成启动时间为 2014/9/1 13:30:30。
+     1>项目“C:\Users\chenhan\Desktop\exc\tetris\tetris\tetris.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\tetris.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\chenhan\Desktop\exc\Libraries\SDL2_image-2.0.0\include" /I"C:\Users\chenhan\Desktop\exc\Libraries\SDL2_mixer-2.0.0\include" /I"C:\Users\chenhan\Desktop\exc\Libraries\SDL2_ttf-2.0.12\include" /I"C:\Users\chenhan\Desktop\exc\Libraries\SDL2-2.0.3\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+     1>c:\users\chenhan\desktop\exc\tetris\tetris\game.cpp(17): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\chenhan\desktop\exc\tetris\tetris\game.cpp(284): warning C4018: “>”: 有符号/无符号不匹配
+     1>c:\users\chenhan\desktop\exc\tetris\tetris\game.cpp(290): warning C4018: “>”: 有符号/无符号不匹配
+     1>c:\users\chenhan\desktop\exc\tetris\tetris\game.cpp(291): warning C4018: “>”: 有符号/无符号不匹配
+     1>c:\users\chenhan\desktop\exc\tetris\tetris\game.cpp(300): warning C4018: “>”: 有符号/无符号不匹配
+     1>c:\users\chenhan\desktop\exc\tetris\tetris\game.cpp(301): warning C4018: “>”: 有符号/无符号不匹配
+     1>c:\users\chenhan\desktop\exc\tetris\tetris\game.cpp(380): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\chenhan\desktop\exc\tetris\tetris\game.cpp(429): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\users\chenhan\desktop\exc\tetris\tetris\game.cpp(463): warning C4101: “event”: 未引用的局部变量
+     1>c:\users\chenhan\desktop\exc\tetris\tetris\game.cpp(584): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\chenhan\desktop\exc\tetris\tetris\game.cpp(655): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\chenhan\desktop\exc\tetris\tetris\game.cpp(671): warning C4244: “参数”: 从“double”转换到“Uint32”，可能丢失数据
+     1>c:\users\chenhan\desktop\exc\tetris\tetris\game.cpp(651): warning C4715: “Game::Add_Toplist”: 不是所有的控件路径都返回值
+       Link:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\chenhan\Desktop\exc\tetris\Debug\tetris.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\chenhan\Desktop\exc\Libraries\SDL2_image-2.0.0\lib\x86" /LIBPATH:"C:\Users\chenhan\Desktop\exc\Libraries\SDL2_mixer-2.0.0\lib\x86" /LIBPATH:"C:\Users\chenhan\Desktop\exc\Libraries\SDL2_ttf-2.0.12\lib\x86" /LIBPATH:"C:\Users\chenhan\Desktop\exc\Libraries\SDL2-2.0.3\lib\x86" SDL2.lib SDL2main.lib SDL2_mixer.lib SDL2_image.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\chenhan\Desktop\exc\tetris\Debug\tetris.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\chenhan\Desktop\exc\tetris\Debug\tetris.lib" /MACHINE:X86 Debug\Draw.obj
+         Debug\Game.obj
+         Debug\SDL_Setup.obj
+         Debug\tetris.obj
+         tetris.vcxproj -> C:\Users\chenhan\Desktop\exc\tetris\Debug\tetris.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\tetris.unsuccessfulbuild”。
+         正在对“Debug\tetris.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\chenhan\Desktop\exc\tetris\tetris\tetris.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.90
